@@ -10,10 +10,11 @@ import { FormsModule} from '@angular/forms';
 
 // Routes
 import { PAGES_ROUTES } from './pages.routes';
-// tmp
+
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ChartsModule } from 'ng2-charts';
     Graficas1Component,
     PagesComponent,
     IncrementadorComponent,
-    GraficaDonaComponent
+    GraficaDonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
